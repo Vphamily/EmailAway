@@ -1,0 +1,21 @@
+{
+    "licenses": [
+        {
+            "license_key": "C502A7A4-0DC7-4C5C-A5CA-806737EDE9FB",
+            "expiration_date": "2025-12-10T20:21:09.767410",
+            "max_users": 5,
+            "active": true,
+            "subscription_paid": true
+        }
+    ],
+    "users": [
+        {
+            "username": "demo",
+            "password_hash": "d3ad9315b7be5dd53b31a273b3b3aba5defe700808305aa16a3062b76658a791",
+            "license_key": "C502A7A4-0DC7-4C5C-A5CA-806737EDE9FB",
+            "last_login": null,
+            "start_date": "2024-12-10T20:21:09.767410",
+            "role": "active"
+        }
+    ]
+}
