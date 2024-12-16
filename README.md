@@ -2,18 +2,12 @@
 ## EmailAway
 
 
-
-
-This Fraud Detection Server is designed to detect fraudulent transactions in real-time by analyzing transaction data through a machine learning model and providing a user-friendly interface for interacting with the model predictions.
-
-The frontend is built with React, utilizing Material-UI components for a responsive, intuitive design. The backend leverages Python, specifically using libraries like Scikit-learn for building and training a machine learning model capable of identifying potentially fraudulent activities.
+This Email Automation Tool is a Python-based application designed to streamline administrative tasks by enabling users to automate their email workflows. With a user-friendly interface, it simplifies the process of scheduling emails, managing attachments, and ensuring timely delivery. Tailored to improve productivity, this tool serves as a modern administrative assistant, offering an intuitive design and robust functionality.
 
 Here's why:
-* Efficiency: Quickly processes transactions to determine fraud likelihood, enhancing security measures.
-* Accessibility: Easy-to-use interface ensures that users can efficiently manage and review transactions.
-* Backend architecture supports scaling to accommodate increased data loads without degradation in performance.
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
+* Efficiency: Allows users to set specific times for sending emails, ensuring timely communication.
+* Accessibility:  Features an intuitive UI for easy navigation and email management.
+* Customizable Workflows: Designed to adapt to diverse user needs for efficient email automation.
 
 
 
@@ -21,9 +15,6 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-- [React](https://reactjs.org/)
-- [Material-UI](https://mui.com/)
-- [Axios](https://axios-http.com/)
 - [Python](https://www.python.org/)
 - [Pandas](https://pandas.pydata.org/)
 - [Scikit-learn](https://scikit-learn.org/)
@@ -39,22 +30,8 @@ Git clone [Repository URL]
 take out the payfraudapp outside of the current folder it should live somewhere independently
 
 ### Prerequisites
-- Node.js and npm
-  ```sh
-  npm install npm@latest -g
-  git clone https://github.com/yourusername/fraud_detection_server.git
-  
-  cd fraud_detection_server
-  pip install openpyxl pandas scikit-learn imbalanced-learn Flask matplotlib
-  python data.py
-  puthon app.py
-
-  cd payfraudapp 
-  npm init
-  npm install axios react @mui/material @emotion/react @emotion/styled
-  npm start
-
-  ```
+- cd EmailAway
+- pip install 
 
   
 
