@@ -9,7 +9,9 @@ Here's why:
 * Accessibility:  Features an intuitive UI for easy navigation and email management.
 * Customizable Workflows: Designed to adapt to diverse user needs for efficient email automation.
 
+![Screenshot 2024-12-10 202459](https://github.com/user-attachments/assets/19f59ba6-b64c-4d6b-89d4-67e5ea2935f9)
 
+![Screenshot 2024-12-10 202513](https://github.com/user-attachments/assets/f79fe483-ae26-4aa3-94ee-532f4b364bb4)
 
 ### Built With
 
@@ -27,44 +29,40 @@ This section should list any major frameworks/libraries used to bootstrap your p
 ```
 Git clone [Repository URL]
 ```
-take out the payfraudapp outside of the current folder it should live somewhere independently
+
 
 ### Prerequisites
 - cd EmailAway
-- pip install 
+- pip install -r requirements.txt
 
   
 
 ### Installation
 
   ```
-  git clone https://github.com/yourusername/fraud_detection_server.git
+  git clone https://github.com/Vphamily/EmailAway.git
   
-  cd fraud_detection_server
-  python data.py
-  puthon app.py
-
-  cd payfraudapp 
-  npm init
-  npm start
+  cd EmailAway
+  python main.py
 
   ```
-
+username : demo
+pasword: demo123
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-![image](https://github.com/user-attachments/assets/efa2bdc9-5f5b-48c9-bf72-234fdd7124a6)
 
 
+![Screenshot 2024-12-10 202526](https://github.com/user-attachments/assets/b146247b-a9ab-4c02-9082-8585cd3db5ed)
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
 - [x] Increae app efficentcy
-- [x] Make sure the prediction show on the front end
-- [x] Model train
-- [x] Make sure front end is user friendly
+- [ ] Add more feature
+- [x] UI/UX modern
+- [x] Make sure the automation workflow work
 
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
